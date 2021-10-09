@@ -88,11 +88,12 @@ const sagiri = {
         if ($('.aplayer-fixed .aplayer-lrc').hasClass('aplayer-lrc-hide')) {
             return;
         }
-        if (scrollTop + windowHeight >= scrollHeight - 20) {
+        $('.aplayer-fixed .aplayer-lrc').hide();
+        /*if (scrollTop + windowHeight >= scrollHeight - 20) {
             $('.aplayer-fixed .aplayer-lrc').hide();
         } else {
             $('.aplayer-fixed .aplayer-lrc').show();
-        }
+        }*/
     },
     wrapImageWithFancyBox: function () {
         /**
