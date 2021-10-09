@@ -1,11 +1,11 @@
-id: cetr_sagiri
-name: Sagiri
+id: sagiri_alex
+name: Sagiri(Alex)
 author:
-  name: 知雨
-  website: https://coor.top
+  name: Alex
+  website: https://idwarf.cn
 description: As lovely as sagiri. A theme for halo
 logo:
-website: https://github.com/cetr/halo-theme-sagiri
-repo: https://github.com/cetr/halo-theme-sagiri
+website: https://github.com/Alex-Zhuo/halo-theme-sagiri
+repo: https://github.com/Alex-Zhuo/halo-theme-sagiri
 version: 2.1.0
 require: 1.4.0
