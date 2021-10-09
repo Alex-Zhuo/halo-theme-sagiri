@@ -71,7 +71,7 @@ sidebar:
       label: 人物属性
       type: radio
       data-type: bool
-      default: true
+      default: false
       options:
         - value: true
           label: 开启

@@ -8,13 +8,13 @@
 
             <#if settings.sidebar_nickname_isopen!false>
                 <p class="site-author-name" itemprop="name">
-                    <span style="opacity:.2;">${settings.sidebar_nickname_prefix!}</span>
+                    <#--<span style="opacity:.2;">${settings.sidebar_nickname_prefix!}</span>-->
                     ${settings.sidebar_nickname!'${user.nickname}'}
                 </p>
             </#if>
-            <p class="site-description motion-element" itemprop="description">
+            <#--<p class="site-description motion-element" itemprop="description">
                 ${settings.sidebar_description!'你能抓到我么？'}
-            </p>
+            </p>-->
         </div>
 
         <div class="links-of-author motion-element">
@@ -140,8 +140,8 @@
             </div>
         </#if>
 
-        <details class="views-top-wrap">
-            <summary class="views-top-name scaleup">看爆 Top5</summary>
+        <div class="views-top-wrap">
+            <div class="views-top-name scaleup">浏览榜 Top5</div>
             <ul class="views-top">
                 <@postTag method="count">
                     <@postTag method="latest" top="${count}">
@@ -150,7 +150,7 @@
                             <li>
                                 <a href="${post.fullPath}">
                                     <span class="views-top-title">${post.title}</span>
-                                    <span class="views-top-time">${post.visits}次看爆</span>
+                                    <span class="views-top-time">${post.visits}次阅读</span>
                                 </a>
                             </li>
                             <#assign postCunt++ />
@@ -161,6 +161,6 @@
                     </@postTag>
                 </@postTag>
             </ul>
-        </details>
+        </div>
     </div>
 </section>

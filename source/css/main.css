@@ -3961,11 +3961,11 @@ a {
     width: 75%;
     margin: auto;
     top: -170px;
-    padding: 40px 0;
+    /*padding: 40px 0;*/
     padding-bottom: 40px;
     font-size: 16px;
     opacity: .98;
-    background: rgba(230, 244, 249, .8);
+    /*background: rgba(230, 244, 249, .8);*/
     z-index: 1;
     animation: b 1s ease-out;
     position: relative;
@@ -4096,7 +4096,8 @@ a {
 }
 
 .site-author {
-    position: relative
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .site-author:after, .site-author:before {
@@ -4117,15 +4118,16 @@ a {
 
 .site-author-name {
     position: absolute;
-    bottom: 36px;
-    margin: 0 0 0 -65px;
+    top: 50%;
+    /*margin: 0 0 0 -65px;*/
     font-size: 20px;
     letter-spacing: .5px;
     color: #ff9800;
     text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
     font-weight: 700;
-    width: 130px;
-    left: 50%
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .site-description {

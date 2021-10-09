@@ -64,7 +64,7 @@
                                                 <span class="post-meta-item-icon"><i class="far fa-eye"></i></span>
                                                 <span class="post-meta-item-text">被</span>
                                                 <span class="leancloud-visitors-count">${post.visits}</span>
-                                                <span class="post-meta-item-text">人看爆</span>
+                                                <span class="post-meta-item-text">次阅读</span>
                                             </span>
                                         </div>
                                     </header>
