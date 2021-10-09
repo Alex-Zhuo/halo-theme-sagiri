@@ -20,7 +20,7 @@
 
 #### 压缩包上传方式（推荐）
 
-1. 下载最新发行版zip压缩包到本地 [点击前往](https://github.com/cetr/halo-theme-sagiri/releases)
+1. 下载最新发行版zip压缩包到本地 [点击前往](https://github.com/Alex-Zhuo/halo-theme-sagiri/releases)
 2. 进入博客后台-外观-主题-安装
 3. 选择本地上传，将压缩包上传上去
 4. 等待提示安装完成
@@ -29,7 +29,7 @@
 
 1. 进入博客后台-外观-主题-安装
 2. 选择远程下载
-3. 远程地址填写 `https://github.com/cetr/halo-theme-sagiri.git`
+3. 远程地址填写 `https://github.com/Alex-Zhuo/halo-theme-sagiri.git`
 5. 点击下载，等待下载完成
 
 **主题个性化的配置请在 Sagiri 的主题设置中设置！**
@@ -43,4 +43,4 @@
 - 修 bugs
 - 推 pr
 
-如果你有一下建议，可以在 [issues](https://github.com/cetr/halo-theme-sagiri/issues) 提出
+如果你有一下建议，可以在 [issues](https://github.com/Alex-Zhuo/halo-theme-sagiri/issues) 提出
